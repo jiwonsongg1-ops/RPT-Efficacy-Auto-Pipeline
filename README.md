@@ -5,6 +5,17 @@
 ## 📌 Project Overview
 전임상 연구(In vitro/In vivo) 과정에서 도출되는 방대한 약효 평가 데이터를 수동으로 처리하며 발생하는 휴먼 에러를 방지하고, 데이터 분석의 정확도와 속도를 극대화하기 위해 파이썬(Python) 기반의 데이터 자동화 파이프라인을 구축했습니다.
 
+## 📊 Analysis Results (Pipeline Output)
+*코드가 실행되면 아래와 같이 논문 및 보고서 제출용 고해상도 시각화 자료가 `Result` 폴더에 자동으로 실시간 생성됩니다.*
+
+### 1. In vivo 종양 부피 시각화 결과
+<img src="Result/plot_tumor_data.png" width="80%" alt="In vivo Tumor Growth Graph">
+
+### 2. In vitro IC50 4PL 모델링 결과
+<img src="Result/plot_ic50_data.png" width="80%" alt="In vitro IC50 4PL Curve">
+
+---
+
 ## 🚀 Key Features
 1. **In vivo 종양 부피 시각화 자동화 (`tumor_plot.py`)**
    - 날짜 및 그룹별 종양 부피(Tumor Volume) 데이터를 인식하여 평균 및 표준편차 오차막대(Error bar)가 포함된 고해상도 그래프를 즉시 시각화합니다.
